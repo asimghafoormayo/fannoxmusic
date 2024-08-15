@@ -1,0 +1,44 @@
+#info .content-container
+{
+    justify-content: space-evenly;
+}
+#info .info-content
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+#info .wrapper
+{
+    position: relative;
+}
+#info .vector-image
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+/* Tablet */
+
+@media (max-width : 1024px)
+{
+
+}
+
+/* SmartPhone */
+
+@media (max-width : 720px)
+{
+    #info .content-container
+{
+    flex-direction: column;
+    gap: 80px;
+    padding: 0 20px;
+}
+#info .vector-image
+{
+    left: 32px;
+}
+}

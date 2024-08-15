@@ -1,0 +1,128 @@
+.logo
+{
+    color : white;
+    font-size: 22px;
+}
+.main
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 10px;
+}
+a
+{
+    text-decoration: none;
+    color : white;
+}
+.one
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 14px;
+}
+.logo
+{
+    margin-bottom: 10px;
+}
+.logos
+{
+    display: flex;
+    gap: 15px;
+}
+.one-text
+{
+    color: white;
+}
+.quick-links
+{
+    color : var(--orange-color);
+    font-size : 22px;
+}
+.contact
+{
+    color : var(--orange-color);
+    font-size : 22px;
+}
+.two,.three
+{
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.two-text, .three-text
+{
+    margin-left: 14px;
+}
+.footer-text
+{
+    display: none;
+}
+
+/* Tablet */
+
+@media (max-width : 1024px)
+{
+    .one
+    {
+        margin-top: 10px;
+        gap: 4px;
+    }
+    .logos
+    {
+        gap: 15px;
+    }
+    .one-text
+{
+    font-size: 14px;
+}
+.two,.three
+{
+    font-size: 12px;
+}
+.quick-links
+{
+    color : var(--orange-color);
+    font-size : 20px;
+    margin-bottom: 15px;
+}
+.contact
+{
+    color : var(--orange-color);
+    font-size : 20px;
+    margin-bottom: 15px;
+}
+}
+
+/* SmartPhone */
+@media (max-width : 720px)
+{
+    .main {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start; /* Align all divs to the left */
+        padding: 30px 10px;
+    }
+
+    .two-text, .three-text {
+        margin-left: 0px;
+    }
+
+    .one, .two, .three {
+        width: 100%; /* Ensure full width for each section */
+    }
+    .two-text, .three-text
+{
+    margin-left: 14px;
+}
+.footer-text
+{
+    display: block;
+    color: white;
+}
+.one-text
+{
+    display: none;
+}
+}

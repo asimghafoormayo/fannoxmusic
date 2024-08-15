@@ -1,0 +1,71 @@
+#topics .topic-image img {
+  width: 550px;
+  object-fit: cover;
+}
+#topics .topics-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-left: 24px;
+}
+
+#topics .topics-list li {
+  font-family: "Alegreya";
+  font-weight: 400;
+  font-size: 20px;
+  margin: 24px 0;
+  position: relative;
+}
+
+#topics .topics-list li::before {
+  content: "";
+  position: absolute;
+  background-color: var(--red-cream-color);
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  left: -24px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#topics .content-container {
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+#topics .wrapper {
+  position: relative;
+}
+.vector-image {
+  position: absolute;
+  right: -24px;
+  bottom: 0;
+}
+
+/* Tablet */
+
+@media (max-width : 1024px)
+{
+  #topics .topic-image img 
+  {
+    width: 385px;
+    height: 250px;
+  }
+}
+
+/* SmartPhone */
+
+@media (max-width : 720px)
+{
+  #topics .topic-image img 
+  {
+    display: none;
+  }
+  .vector-image
+  {
+    right: 32px;
+  }
+}
+

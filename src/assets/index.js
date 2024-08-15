@@ -1,0 +1,31 @@
+import Frame_4 from "./Frame_4.svg"
+import Group_7 from "./Group_7.svg"
+import Group_10 from "./Group_10.png"
+import Hero_Text from "./Hero_Text.png"
+import Menu_Icon from "./Menu_Icon.svg"
+import student from "./student.svg"
+import Rectangle_8 from "./Rectangle_8.jpg"
+import Rectangle_13 from "./Rectangle_13.png"
+import Rectangle_19_2 from "./Rectangle_19_2.png"
+import Rectangle_19_3 from "./Rectangle_19_3.png"
+import Rectangle_19 from "./Rectangle_19.png"
+import Social_icons from "./Social_icons.png"
+import Thumbnail_1 from "./Thumbnail_1.jpg"
+import Thumbnail_2 from "./Thumbnail_2.jpg"
+import Thumbnail from "./Thumbnail.jpg"
+import Vector from "./Vector.png"
+import topic_1 from "./topic_1.png"
+import topic_2 from "./topic_2.png"
+import topic_3 from "./topic_3.png"
+import topic_4 from "./topic_4.png"
+import Group_8 from "./Group_8.svg"
+import Group_7_2 from "./Group_7_2.svg"
+import instagram from "./instagram.svg"
+import facebook from "./facebook.svg"
+import twitter from "./twitter.svg"
+import icon from "./icon.svg"
+
+
+export { Frame_4,Group_7,Group_10,Hero_Text,Menu_Icon,Rectangle_8,Rectangle_19, Rectangle_19_2, Rectangle_19_3, Social_icons, student, Thumbnail_1, Thumbnail_2, Thumbnail, Vector, topic_1, topic_2,topic_3,topic_4, Group_8,Group_7_2, instagram, facebook, twitter,icon }
+
+

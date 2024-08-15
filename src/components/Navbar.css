@@ -1,0 +1,104 @@
+nav
+{
+    position: fixed;
+    width: 80%;
+    height: 80px;
+    left: 128px;
+    top: 24px;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(24px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 300;
+    padding: 16px 32px;
+}
+nav ul
+{
+    display: flex;
+    list-style: none;
+    margin: 0 0;
+    gap: 50px;
+}
+nav ul a, nav .logo
+{
+    font-family: 'Inter';
+    color: white;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 19px;
+}
+.red
+{
+    color : var(--red-cream-color)
+}
+.icon, .menu-container
+    {
+        display: none;
+    }
+/* Tablet */
+@media (max-width: 1024px)
+{
+    nav
+    {
+        width: 694px;
+    }
+}
+/* SmartPhone */
+@media (max-width: 720px)
+{
+    nav
+    {
+        width: unset;
+        left: 32px;
+        right: 32px;
+        padding: 16px 32px;
+    }
+    nav .navbar-items
+    {
+        display: none;
+    }
+    .icon, .menu-container
+    {
+        display: block;
+    }
+    .menu-container
+    {
+        display: flex;
+        position: fixed;
+        z-index: 600;
+        background : var(--dark-color);
+        left : 0;
+        right: 0;
+        padding: 60px 32px;
+        transform: translateY(-100%);
+        transition: all 1200ms cubic-bezier(0.3, 0.96, 0.59, 0.95);
+    }
+    .menu-container.active
+    {
+        transform: translateY(0);
+    }
+    .menu-container .menu-items
+    {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    .menu-container .menu-icon
+    {
+        position: fixed;
+        top: 32px;
+        right: 32px;
+    }
+    .menu-container .menu-items li a
+    {
+        color: white;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 19px;
+        padding: 20px 0;
+        display: inline-block;
+    }
+}

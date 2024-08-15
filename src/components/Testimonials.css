@@ -1,0 +1,53 @@
+#testimonials .content-container
+{
+    margin: 80px 0;
+    justify-content: space-between;
+}
+#testimonials .student-post
+{
+    width: 264px;
+}
+#testimonials .student-post img
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+#testimonials .student-post .name
+{
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+}
+
+/* Tablet */
+
+@media (max-width : 1024px)
+{
+    #testimonials .content-container
+    {
+        flex-direction: column;
+        gap: 50px;
+    }
+    #testimonials .student-post
+    {
+        width: 844px;
+    }
+}
+
+/* SmartPhone */
+
+@media (max-width : 720px)
+{
+    #testimonials .content-container
+    {
+        flex-direction: column;
+        gap: 50px;
+        text-align: center;
+        margin: 40px 0;
+    }
+    #testimonials .student-post
+    {
+        width: 100%;
+    }
+}
